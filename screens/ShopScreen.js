@@ -36,7 +36,7 @@ const DATA = [
     title: 'Third Item9',
   }, {
     id: '58694a0f-3da18-471f-bd96-145571e29d72',
-    title: 'Third Item10',
+    title: 'Pl',
   }
 ];
 
@@ -58,7 +58,9 @@ const ShopScreen = () => {
         data={DATA}
         renderItem={renderItem}
         keyExtractor={item => item.id}
+        
       />
+     
     </SafeAreaView>
 
   );
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
     marginTop: StatusBar.currentHeight || 0,
   },
   item: {
-    backgroundColor: '#f9c2ff',
+    backgroundColor: '#808080',
     padding: 20,
     marginVertical: 8,
     marginHorizontal: 16,
